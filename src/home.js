@@ -1,4 +1,4 @@
-const renderHome = function () {
+const createHeader = function () {
   const content = document.querySelector("#content");
 
   const header = document.createElement("div");
@@ -19,7 +19,10 @@ const renderHome = function () {
   contactButton.classList.add("header-btn");
   contactButton.textContent = "Contact";
   header.appendChild(contactButton);
+};
 
+const createHero = function () {
+  const content = document.querySelector("#content");
   const hero = document.createElement("div");
   hero.classList.add("hero");
   content.appendChild(hero);
@@ -43,6 +46,10 @@ const renderHome = function () {
   hero.appendChild(heroImage);
 
   content.appendChild(hero);
+};
+
+const createInfo = function () {
+  const content = document.querySelector("#content");
 
   const info = document.createElement("div");
   info.classList.add("info");
@@ -59,7 +66,6 @@ const renderHome = function () {
   info.appendChild(bookButton);
 
   content.appendChild(info);
-  document.body.appendChild(content);
 };
 
-export default renderHome;
+export { createHeader, createHero, createInfo };
