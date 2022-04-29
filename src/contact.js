@@ -17,7 +17,7 @@ const createContact = () => {
   contactText.appendChild(email);
 
   const address = document.createElement("h2");
-  address.textContent = "1 Yummy Street, Delicious, Sushi";
+  address.textContent = "📍 1 Yummy Street, Delicious, Sushi";
   contactText.appendChild(address);
 
   const contactImage = document.createElement("img");

@@ -53,10 +53,12 @@ const createHero = function () {
 
 const createInfo = function () {
   const content = document.querySelector("#content");
+  const infoContainer = document.createElement("div");
+  infoContainer.classList.add("info-container");
 
   const info = document.createElement("div");
   info.classList.add("info");
-  content.appendChild(info);
+  infoContainer.appendChild(info);
 
   const infoPara = document.createElement("p");
   infoPara.classList.add("info-para");
@@ -68,7 +70,7 @@ const createInfo = function () {
   bookButton.textContent = "BOOK A TABLE";
   info.appendChild(bookButton);
 
-  content.appendChild(info);
+  content.appendChild(infoContainer);
 };
 
 export { createHeader, createHero, createInfo };

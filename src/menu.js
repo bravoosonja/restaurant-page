@@ -14,8 +14,8 @@ const createMenuItem = function (name, description) {
   menuText.appendChild(dishDescription);
 
   const dishImage = document.createElement("img");
-  dishImage.classList.add("menu-image");
-  dishImage.src = `../src/${name}.jpg`;
+  dishImage.classList.add("hero-image");
+  dishImage.src = `../src/menu/${name}.jpg`;
 
   menuItem.appendChild(dishName);
   menuItem.appendChild(dishDescription);
@@ -27,7 +27,7 @@ const createMenuItem = function (name, description) {
 const createMenu = function () {
   const content = document.querySelector("#content");
   const menu = document.createElement("div");
-  menu.classList.add("hero");
+  menu.classList.add("menu");
 
   menu.appendChild(
     createMenuItem(

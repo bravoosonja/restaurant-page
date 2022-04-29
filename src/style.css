@@ -83,7 +83,7 @@ body {
   align-items: center;
   padding: 5rem;
   gap: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: left;
 }
 
@@ -117,27 +117,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "menu-text menu-image"; */
+  gap: 1rem;
   padding: 3rem;
 }
 
 .menu-image {
-  grid-area: hero-image;
+  grid-area: menu-image;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 100%;
+  height: 100%;
 }
 
+.info-container,
 .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-self: center;
+}
+
+.info {
   border-radius: 8px;
   border: 2px solid black;
-  width: 70vw;
-  height: auto;
-  padding: 1rem;
+  width: 50vw;
+  height: fit-content;
+  padding: 2rem;
   margin: none;
   gap: 1rem;
 }
