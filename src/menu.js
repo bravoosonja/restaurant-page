@@ -4,8 +4,9 @@ const createMenuItem = function (name, description) {
 
   const menuText = document.createElement("div");
   menuText.classList.add("hero-text");
+  menuItem.appendChild(menuText);
 
-  const dishName = document.createElement("h1");
+  const dishName = document.createElement("h2");
   dishName.textContent = name;
   menuText.appendChild(dishName);
 
@@ -16,9 +17,6 @@ const createMenuItem = function (name, description) {
   const dishImage = document.createElement("img");
   dishImage.classList.add("hero-image");
   dishImage.src = `../src/menu/${name}.jpg`;
-
-  menuItem.appendChild(dishName);
-  menuItem.appendChild(dishDescription);
   menuItem.appendChild(dishImage);
 
   return menuItem;
