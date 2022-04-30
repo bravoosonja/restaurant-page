@@ -15,8 +15,8 @@ The objective is to practice DOM manipulation by dynamically rendering a simple 
 * Using source maps
 * development watch mode
 # Future plans
--[ ] update UI
--[ ] clean up code
--[ ] clean up dist folder
--[ ] change from development mode to production mode 
--[ ] update Readme.md
+- [x] update UI
+- [x] clean up code
+- [x] clean up dist folder
+- [x] change from development mode to production mode 
+- [ ] update Readme.md
