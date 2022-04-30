@@ -22,6 +22,7 @@ const createMenuItem = function (name, description) {
   return menuItem;
 };
 
+//dish information
 const createMenu = function () {
   const content = document.querySelector("#content");
   const menu = document.createElement("div");

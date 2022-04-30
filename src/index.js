@@ -15,10 +15,6 @@ createHeader();
 createHero();
 createInfo();
 
-const homeButton = document.querySelector("#home-button");
-const menuButton = document.querySelector("#menu-button");
-const contactButton = document.querySelector("#contact-button");
-
 function render() {
   const content = document.querySelector("#content");
   content.style = "";
@@ -27,6 +23,12 @@ function render() {
   }
 }
 
+//DOM objects
+const homeButton = document.querySelector("#home-button");
+const menuButton = document.querySelector("#menu-button");
+const contactButton = document.querySelector("#contact-button");
+
+//event listeners
 homeButton.addEventListener("click", () => {
   render();
   createHero();

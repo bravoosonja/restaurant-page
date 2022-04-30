@@ -1,8 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap");
+/* syne-regular - latin */
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/syne-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/syne-v14-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/syne-v14-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/syne-v14-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/syne-v14-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/syne-v14-latin-regular.svg#Syne")
+      format("svg"); /* Legacy iOS */
+}
+/* syne-500 - latin */
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/syne-v14-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/syne-v14-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/syne-v14-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/syne-v14-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/syne-v14-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/syne-v14-latin-500.svg#Syne")
+      format("svg"); /* Legacy iOS */
+}
+/* syne-700 - latin */
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/syne-v14-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/syne-v14-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/syne-v14-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/syne-v14-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/syne-v14-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/syne-v14-latin-700.svg#Syne")
+      format("svg"); /* Legacy iOS */
+}
 
 :root {
-  --blue: #9fb4ff;
-  --mint: #99ffcd;
   --yellow: #fff56d;
   --gray: #dfdfde;
   --beige: #f7f5f2;
@@ -10,7 +55,7 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -24,7 +69,7 @@ body {
   height: 90vh;
   font-size: 1rem;
   font-weight: 400;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .content,
@@ -87,6 +132,12 @@ body {
   text-align: left;
 }
 
+.contact-text {
+  grid-area: hero-text;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .hero-text {
   grid-area: hero-text;
 }
@@ -118,9 +169,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "menu-text menu-image"; */
   gap: 1rem;
   padding: 3rem;
 }

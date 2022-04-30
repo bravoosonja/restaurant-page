@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { watch } = require("fs");
+const GoogleFontsPlugin = require("google-fonts-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -31,7 +31,12 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: "asset/resource",
+      },
     ],
   },
+
   watch: true,
 };

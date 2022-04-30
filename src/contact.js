@@ -5,7 +5,7 @@ const createContact = () => {
   contact.classList.add("hero");
 
   const contactText = document.createElement("div");
-  contactText.classList.add("hero-text");
+  contactText.classList.add("contact-text");
   contact.appendChild(contactText);
 
   const phone = document.createElement("h2");
