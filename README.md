@@ -1,6 +1,6 @@
 # Introduction
 The objective is to practice DOM manipulation by dynamically rendering a simple restaurant page using webpack to generate the entire contents of the website with JavaScript alone.
-(👉Live Demo)[https://github.io/bravoosonja/restaurant-page]
+[👉Live Demo](https://github.io/bravoosonja/restaurant-page)
 # Skills used
 * HTML
 * CSS
