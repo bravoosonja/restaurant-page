@@ -44,7 +44,7 @@ const createHero = function () {
   heroText.appendChild(heroPara);
 
   const heroImage = document.createElement("img");
-  heroImage.src = "../src/hero-image.jpg";
+  heroImage.src = "./src/hero-image.jpg";
   heroImage.classList.add("hero-image");
   hero.appendChild(heroImage);
 

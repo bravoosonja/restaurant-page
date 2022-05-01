@@ -21,7 +21,7 @@ const createContact = () => {
   contactText.appendChild(address);
 
   const contactImage = document.createElement("img");
-  contactImage.src = "../src/contact.jpg";
+  contactImage.src = "./src/contact.jpg";
   contactImage.classList.add("hero-image");
   contact.appendChild(contactImage);
 
