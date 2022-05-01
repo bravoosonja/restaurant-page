@@ -16,7 +16,7 @@ const createMenuItem = function (name, description) {
 
   const dishImage = document.createElement("img");
   dishImage.classList.add("hero-image");
-  dishImage.src = `./src/menu/${name}.jpg`;
+  dishImage.src = `images/${name}.jpg`;
   menuItem.appendChild(dishImage);
 
   return menuItem;
