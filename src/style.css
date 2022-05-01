@@ -4,8 +4,8 @@
   font-style: normal;
   font-weight: 400;
   src: url("fonts/syne-v14-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    urlfonts/syne-v14-latin-regular.eot?#iefix") format("embedded-opentype"),
+  src: local("urlfonts/syne-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
     /* IE6-IE8 */ url("fonts/syne-v14-latin-regular.woff2") format("woff2"),
     /* Super Modern Browsers */ url("fonts/syne-v14-latin-regular.woff")
       format("woff"),
@@ -18,15 +18,13 @@
 @font-face {
   font-family: "Syne";
   font-style: normal;
-  font-weight: 50
+  font-weight: 50;
   src: url("fonts/syne-v14-latin-500.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url(".fonts/syne-v14-latin-500.eot?#iefix") format("embedded-opentype"),
+  src: local(".fonts/syne-v14-latin-500.eot?#iefix") format("embedded-opentype"),
     /* IE6-IE8 */ url("fonts/syne-v14-latin-500.woff2") format("woff2"),
     /* Super Modern Browsers */ url("fonts/syne-v14-latin-500.woff")
       format("woff"),
-    /* Modern Browsers */ url("fonts/syne-v14-latin-500.ttf")
-      format("truetype"),
+    /* Modern Browsers */ url("fonts/syne-v14-latin-500.ttf") format("truetype"),
     /* Safari, Android, iOS */ url("fonts/syne-v14-latin-500.svg#Syne")
       format("svg"); /* Legacy iOS */
 }
@@ -41,10 +39,10 @@
     /* IE6-IE8 */ url("fonts/syne-v14-latin-700.woff2") format("woff2"),
     /* Super Modern Browsers */ url("fonts/syne-v14-latin-700.woff")
       format("woff"),
-    /* Modern Browsers */ url("fonts/syne-v14-latin-700.ttf")
-      format("truetype"),
+    /* Modern Browsers */ url("fonts/syne-v14-latin-700.ttf") format("truetype"),
     /* Safari, Android, iOS */ url("fonts/syne-v14-latin-700.svg#Syne")
       format("svg"); /* Legacy iOS */
+}
 
 :root {
   --yellow: #fff56d;
