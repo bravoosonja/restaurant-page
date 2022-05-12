@@ -18,6 +18,7 @@ The objective is to practice DOM manipulation by dynamically rendering a simple 
 * development watch mode
 * building a production site
 * font doesn't load on production mode
+* images don't load on production mode github page
 # Future plans
 - [x] update UI
 - [x] clean up code
